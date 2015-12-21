@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2e2e2e" >
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarUploadVideo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/textViewProgress" />
+
+    <VideoView
+        android:id="@+id/videoViewPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewFilePathLabel"
+        android:layout_below="@+id/progressBarUploadVideo"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBarUploadVideo"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:text=" 00%" />
+
+    <TextView
+        android:id="@+id/textViewFilePathLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewFilePath"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="Local file path:" />
+
+    <TextView
+        android:id="@+id/textViewFilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewFileUrlLabel"
+        android:layout_margin="5dp"
+        android:text="@string/noFileYet" />
+
+    <TextView
+        android:id="@+id/textViewFileUrlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewFileUrl"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="File url:" />
+
+    <TextView
+        android:id="@+id/textViewFileUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayoutBottomBar"
+        android:layout_margin="5dp"
+        android:text="@string/noFileYet" />
+
+    <ImageButton
+        android:id="@+id/imageButtonUploadVideo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageViewVerticalSplitter3"
+        android:background="@drawable/publish"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonTakeVideo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageButtonGallery"
+        android:background="@drawable/camera"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGallery"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageButtonUploadVideo"
+        android:background="@drawable/gallery"
+        android:scaleType="fitCenter" />
+
+
+    <ImageView
+        android:id="@+id/imageViewVerticalSplitter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@+id/imageButtonUploadVideo"
+        android:src="@drawable/vertical_splitter" />
+
+    <ImageView
+        android:id="@+id/imageViewVerticalSplitter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imageButtonGallery"
+        android:layout_alignTop="@+id/imageViewVerticalSplitter1"
+        android:src="@drawable/vertical_splitter" />
+
+    <ImageView
+        android:id="@+id/imageViewVerticalSplitter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@+id/imageButtonDeleteVideo"
+        android:src="@drawable/vertical_splitter" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDeleteVideo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/delete"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

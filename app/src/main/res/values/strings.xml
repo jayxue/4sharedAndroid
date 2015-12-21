@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">4sharedAndroid Demo</string>
+
+    <string name="takeOrSelectVideo">Please take or select a video before uploading to 4shared.com.</string>
+    <string name="noFileYet">No file yet</string>
+    <string name="noUrlYet">No url yet</string>
+    <string name="uploadingFile">Uploading file...</string>
+    <string name="deletingFile">Deleting file...</string>
+    <string name="fileUpdated">File is successfully updated and the file link remains the same</string>
+    <string name="videoUploadCancelled">You have canceled video uploading. You can press the Upload button to resume it.</string>
+    <string name="videoUploadCompleted">The video has been successfully uploaded.</string>
+    <string name="cannotPickUpVideoTitle">Cannot Pick up Video</string>
+    <string name="notSupportedOnDevice">Sorry, your device does not support.</string>
+    <string name="videoNotAvailable">Video not available</string>
+    <string name="pressVideoToPreview">Press video to preview</string>
+
+</resources>

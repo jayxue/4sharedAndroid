@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">4sharedAndroidSDK</string>
+
+    <string name="networkErrorTitle">Network Error</string>
+    <string name="networkError">The network connection on your device has some issues. Please check your settings and try again.</string>
+    <string name="serverErrorTitle">Server Error</string>
+    <string name="serverError">The server is temporarily out of service. Usually it will recover within 24 hours. Please wait with patience.</string>
+    <string name="dirNotFoundErrorTitle">Data Directory Not Found</string>
+    <string name="dirNotFoundError">Data directory is not found on server. Please make sure the dir ID is correct.</string>
+    <string name="fileNotFoundErrorTitle">Data File Not Found</string>
+    <string name="fileNotFoundError">Data file is not found on server. Please contact check files through 4shared Web console.</string>
+    <string name="unknownErrorTitle">Unknown Error</string>
+    <string name="unknownError">Cannot load data from server due to unknown error. Please try again.</string>
+
+</resources>
