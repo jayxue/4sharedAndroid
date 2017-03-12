@@ -6,7 +6,7 @@ An Android SDK that consumes 4shared file storage service.
 
 Details
 -------
-4shared (www.4shared.com) is one of the highest-quality, free online hosting and sharing services. This library helps developers easily create Android applications that consume 4shared service in terms of browsing, creating, updating and deleting files.
+4shared (www.4shared.com) is one of the highest-quality, free online hosting and sharing services. This library helps developers easily create Android applications that consume 4shared service for browsing, creating, updating and deleting files.
 
 A sample application is provided to show:
 * Taking or picking up and previewing a video on a device.
@@ -18,7 +18,7 @@ Special Note
 ------------
 The library worked well with 4shared's SOAP service. Unfortunately, 4shared just retired the SOAP service and released their first REST service recently. Therefore, the library is not able to access 4shared service anymore.
 
-We will provide an updated library that uses 4shared's REST service soon.
+An updated library that consumes 4shared's REST service will be provided soon.
 
 Developer
 ---------
